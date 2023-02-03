@@ -1,0 +1,29 @@
+---
+layout: homepage
+---
+
+<body>
+  <div uk-height-expand>
+    <div>
+      {% include header.html %}
+      <div class="uk-section uk-section-small">
+        <div class="intro-text uk-container">
+          <h2 class="uk-heading-large">Isaac Horton <br>Designer</h2>
+          <p>Building cutting edge visual experiences</p>
+        </div>
+      </div>
+      <div class="uk-section uk-section-small">
+        <div class="intro-text uk-container">
+          <div class="uk-child-width-1-2@m" uk-grid>
+            <div class="uk-heading-medium uk-animation-slide-right-small uk-flex uk-flex-middle">UI/UX, <br>Design,<br>Animation</div>
+            <div><img class="uk-width-1-1" src="{{ "/assets/img/ih-portfolio-items-54.jpg" | relative_url }}" width="1000" height="571"></div>
+          </div>
+        </div>
+          {% include sections/featured.html %}
+      </div>
+    </div>
+  </div>
+
+  {% include sections/collaborate.html %}
+
+</body>
